@@ -1,13 +1,56 @@
-html {
-    background-color: rgb(36, 34, 34)
+
+.backgroundimage {
+
+    background-image: url(images/recipe2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-body {
-    color: white;
-}
-h1 {
-    font-weight: 900;
+.title {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: 900;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 223, 157);
+    box-shadow: 10px 5px 10px rgb(0, 50, 0);
+    padding: 10px;
 }
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-top: 40px;
+    font-weight: 500;
+    
+    
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: purple;
+}
+.secondary-page-title {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px grey;
+}
+.secondary-image {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    box-shadow: 0px 0px 5px 3px grey;
+}
+.secondary-text {
+    text-align: center;
+    font-weight: 600;
+}
+li {
+    margin-inline-start: 10%;
+    line-height: 2;
+    font-weight: 600;
+}
+h3 {
+    margin-inline-start: 8%;
+}
+
 
