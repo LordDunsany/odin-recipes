@@ -17,15 +17,14 @@ body {
     background-color: rgb(229, 233, 214);
     box-shadow: 3px 3px 20px 0px rgb(128, 133, 128);
     padding: 10px;
+    padding-bottom: 70px;
     border-radius: 10px;
+    text-shadow: 1px 1px 1px grey;
 }
 #ul-front-page {
     font-family: "New Times Roman", "Helvetica", sans-serif;
     margin-left: 150px;
     padding: 10px;
-    
-    
-    
 }
 a:hover {
     color: black;
@@ -58,13 +57,21 @@ ul, ol {
 }
 h3 {
     margin-inline-start: 8%;
-    margin-left: 410px;
+
 }
 body {
     padding-bottom: 50px;
 }
-.steps {
-    margin-left: 435px;
+.curve {
+    background-color: rgb(201, 206, 154, .5);
+    height: 67px;
+    margin-top: -100px;
+    padding: 0;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
 }
 
 
